@@ -1,0 +1,149 @@
+@media (min-width: 800px){
+  body{
+    background: black;
+    font-family: 'Graduate', cursive;
+    font-weight: bolder;
+
+  }
+  button{
+    background: #06FF00;
+    font-size: 25px;
+    flex-basis: 80px;
+    margin: 10px;
+    border: none;
+    border-bottom: solid 5px rgb(0, 0, 0, .1);
+    border-radius: 10px;
+    padding: 7px 0;
+    font-family: 'Graduate', cursive;
+    font-weight: bold;
+  }
+  button:hover{
+    opacity: 70%;
+  }
+  h1{
+    text-align: right;
+    color: #06FF00;
+    width: fit-content;
+    margin-left: auto;
+  }
+  p{
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  .calculator{
+    position: absolute;
+    padding: 20px;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .output{
+      background: #1E5128;
+      width: 400px;
+      height: 80px;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      overflow: auto;
+  }
+  .input{
+    background: #1E5128;
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .del{
+    background: black;
+    color: #06FF00;
+  }
+  .equal{
+    background: black;
+    flex-basis: 180px;
+    color: #06FF00;
+  }
+  .reset{
+    background: black;
+    flex-basis: 180px;
+    color: #06FF00;
+  }
+}
+@media (max-width:800px){
+  body{
+    background: black;
+    font-family: 'Graduate', cursive;
+    font-weight: bolder;
+  }
+  button{
+    background: #FF0000;
+    font-size: 25px;
+    flex-basis: 55px;
+    margin: 10px;
+    border: none;
+    border-bottom: solid 5px rgb(0, 0, 0, .1);
+    border-radius: 10px;
+    padding: 7px 0;
+    font-family: 'Graduate', cursive;
+    font-weight: bold;
+  }
+  button:hover{
+    opacity: 70%;
+  }
+  h1{
+    text-align: right;
+    color: #F5F2E7;
+    width: fit-content;
+    margin-left: auto;
+  }
+  p{
+    color: white;
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  .calculator{
+    position: absolute;
+    padding: 20px;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .output{
+      background: #8E0505;
+      width: 300px;
+      height: 80px;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      overflow: auto;
+  }
+  .input{
+    background: #8E0505;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .del{
+    background: black;
+    color: #FF0000;
+  }
+  .equal{
+    background: black;
+    color: #FF0000;
+    flex-basis: 130px;
+  }
+  .reset{
+    background: black;
+    color: #FF0000;
+    flex-basis: 130px;
+  }
+}
